@@ -1,0 +1,281 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-size:0.8125rem;
+}
+
+.mainBody{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.cardDanielClifford{
+    grid-column: span 2;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: 75%;
+    background-size: 28%;
+    border-radius: 10px;
+    padding: 5% 10% 0% 10%;
+}
+.danielIcon{
+    display: inline;
+    border-radius: 50%;
+    border-style: solid;
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+}
+.danielTextHolder{display: inline-block;}
+.titleHeaderText1{
+    display: inline;
+    color: hsl(210, 46%, 95%);
+    margin-bottom: 0%;
+    font-size: .84rem;
+    font-weight: 500;
+}
+.titlesubText1{
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+    margin-top: 0%;
+    font-size: .7rem;
+    font-weight: 500;
+}
+.headerText1{
+    color: hsl(210, 46%, 95%);
+    font-size: 1rem;
+    line-height: 1.51rem;
+    letter-spacing: .012rem;
+    font-weight: 600;
+    
+}
+.subText1{
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+    font-size: .82rem;
+    font-weight: 500;
+    line-height: 1.13rem;
+    letter-spacing: .01rem;
+}
+
+.cardJonathanWalters{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 5% 10% 0% 10%; 
+}
+.jonathanIcon{
+    display: inline;
+    border-radius: 50%;
+    border-color: hsl(217, 19%, 35%);
+    border-style: solid;
+}
+.jonathanTextHolder{display: inline-block;}
+.titleHeaderText2{
+    color: hsl(210, 46%, 95%);
+    margin-bottom: 0%;
+    display: inline;
+    font-size: .84rem;
+    font-weight: 500;
+}
+.titlesubText2{
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+    margin-top: 0%;
+    font-size: .7rem;
+    font-weight: 500;
+
+}
+.headerText2{
+    color: hsl(210, 46%, 95%);
+    font-size: 1rem;
+    line-height: 1.51rem;
+    letter-spacing: .012rem;
+    font-weight: 600;
+}
+.subText2{
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+    font-size: .82rem;
+    font-weight: 500;
+    line-height: 1.13rem;
+    letter-spacing: .01rem;
+}
+
+
+.cardJeanetteHarmon{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 5% 10% 0% 10%;
+
+}
+.jeanetteIcon{
+    display: inline;
+    border-radius: 50%;
+}
+.jeanetteTextHolder{display: inline-block;}
+.titleHeaderText3{
+    display: inline;
+    color: hsl(219, 29%, 14%);
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: .84rem;
+    font-weight: 500;
+    
+}
+.titlesubText3{
+   color: hsl(219, 29%, 14%);
+   opacity: 50%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   font-size: .7rem;
+   font-weight: 500;
+}
+.headerText3{
+    color: hsl(219, 29%, 14%);
+    font-size: 1rem;
+    line-height: 1.51rem;
+    letter-spacing: .012rem;
+    font-weight: 600;
+}
+.subText3{
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    font-size: .82rem;
+    font-weight: 500;
+    line-height: 1.13rem;
+    letter-spacing: .01rem;
+}
+
+.cardKiraWhittle{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    padding: 5% 10% 0% 10%;
+}
+.kiraIcon{
+    display: inline;
+    border-radius: 50%;
+}
+.kiraTextHolder{display: inline-block;}
+.titleHeaderText4{
+    display: inline;
+    margin-bottom: 0%;
+    font-size: .84rem;
+    font-weight: 500;
+}
+.titlesubText4{
+    opacity: 50%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1rem;
+    font-weight: 500;
+    }
+.headerText4{
+    font-size: .9rem;
+
+    letter-spacing: .012rem;
+    font-weight: 600;
+    }
+.subText4{
+    opacity: 70%;    
+    
+    font-weight: 500;
+ 
+}
+
+.cardPatrickAbrams{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    grid-column: span 2;
+    padding: 5% 10% 0% 10%;
+}
+.patrickIcon{
+    display: inline;
+    border-radius: 50%;
+    border-color: hsl(263, 55%, 52%);
+    border-style: solid;
+}
+
+.patrickTextHolder{display: inline-block;}
+
+.titleHeaderText5{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0%;
+    font-size: .84rem;
+    font-weight: 500;
+}
+.titlesubText5{
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+    margin-top: 0%;
+    font-size: .7rem;
+    font-weight: 500;
+}
+.headerText5{
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    line-height: 1.51rem;
+    letter-spacing: .012rem;
+    font-weight: 600;
+}
+.subText5{
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-size: .82rem;
+    font-weight: 500;
+    line-height: 1.13rem;
+    letter-spacing: .01rem;
+}
+
+@media screen and (max-width: 600px) {
+    .mainBody{
+        display: grid;
+        
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 0rem;
+        row-gap: 2rem;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    .cardDanielClifford{
+        grid-column: span 0;
+        background-color: hsl(263, 55%, 52%);
+        background-image: url(./images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-position-x: 75%;
+        background-size: 28%;
+        border-radius: 10px;
+        padding: 5% 10% 0% 10%;
+    }
+    
+.cardJonathanWalters{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    
+    padding: 5% 10% 0% 10%; 
+}
+    .cardKiraWhittle{
+        display: grid;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        grid-column-start: 1;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-end: 1;
+        padding: 5% 10% 0% 10%;
+        display: block;
+    }
+    .kiraIcon{
+        display: inline;
+        border-radius: 50%;
+        
+    }
+}
